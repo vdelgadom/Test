@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_GwTTMFDUEei7F4QiRyIqWg" name="testModel_UMLModeler8.0">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_WwKCIFDUEei7F4QiRyIqWg" name="Usuario">
+    <eAnnotations xmi:id="_WwNsgFDUEei7F4QiRyIqWg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_WwNsgVDUEei7F4QiRyIqWg" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YiGg4FDUEei7F4QiRyIqWg" name="uTAG App"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_dYwGwFDUEei7F4QiRyIqWg" name="UseCase1"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_d5DXcFDUEei7F4QiRyIqWg" name="UseCase2"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eyHtcFDUEei7F4QiRyIqWg" memberEnd="_eyQQUFDUEei7F4QiRyIqWg _eyQQUVDUEei7F4QiRyIqWg">
+    <ownedEnd xmi:id="_eyQQUFDUEei7F4QiRyIqWg" type="_WwKCIFDUEei7F4QiRyIqWg" association="_eyHtcFDUEei7F4QiRyIqWg"/>
+    <ownedEnd xmi:id="_eyQQUVDUEei7F4QiRyIqWg" type="_dYwGwFDUEei7F4QiRyIqWg" association="_eyHtcFDUEei7F4QiRyIqWg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jSikoFDUEei7F4QiRyIqWg" memberEnd="_jSjLsFDUEei7F4QiRyIqWg _jSkZ0FDUEei7F4QiRyIqWg">
+    <ownedEnd xmi:id="_jSjLsFDUEei7F4QiRyIqWg" type="_YiGg4FDUEei7F4QiRyIqWg" association="_jSikoFDUEei7F4QiRyIqWg"/>
+    <ownedEnd xmi:id="_jSkZ0FDUEei7F4QiRyIqWg" type="_d5DXcFDUEei7F4QiRyIqWg" association="_jSikoFDUEei7F4QiRyIqWg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kT1pkFDUEei7F4QiRyIqWg" memberEnd="_kT2QoFDUEei7F4QiRyIqWg _kT2QoVDUEei7F4QiRyIqWg">
+    <ownedEnd xmi:id="_kT2QoFDUEei7F4QiRyIqWg" type="_dYwGwFDUEei7F4QiRyIqWg" association="_kT1pkFDUEei7F4QiRyIqWg"/>
+    <ownedEnd xmi:id="_kT2QoVDUEei7F4QiRyIqWg" type="_d5DXcFDUEei7F4QiRyIqWg" association="_kT1pkFDUEei7F4QiRyIqWg"/>
+  </packagedElement>
+</uml:Model>
