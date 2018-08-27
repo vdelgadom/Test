@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oiaxsKmbEeiiXdQd0b4HiA" name="NewModel">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_udMRkKmcEeiDTvaA_QfFFA" name="UseCase1"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vXQGEKmcEeiDTvaA_QfFFA" name="Actor1">
+    <eAnnotations xmi:id="_vXQGEamcEeiDTvaA_QfFFA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_vXQGEqmcEeiDTvaA_QfFFA" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vwfFcKmcEeiDTvaA_QfFFA" name="Actor2"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w8XpwKmcEeiDTvaA_QfFFA" memberEnd="_w8YQ0KmcEeiDTvaA_QfFFA _w8Y34KmcEeiDTvaA_QfFFA">
+    <ownedEnd xmi:id="_w8YQ0KmcEeiDTvaA_QfFFA" type="_vXQGEKmcEeiDTvaA_QfFFA" association="_w8XpwKmcEeiDTvaA_QfFFA"/>
+    <ownedEnd xmi:id="_w8Y34KmcEeiDTvaA_QfFFA" type="_udMRkKmcEeiDTvaA_QfFFA" association="_w8XpwKmcEeiDTvaA_QfFFA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xZuUIKmcEeiDTvaA_QfFFA" memberEnd="_xZu7MKmcEeiDTvaA_QfFFA _xZviQKmcEeiDTvaA_QfFFA">
+    <ownedEnd xmi:id="_xZu7MKmcEeiDTvaA_QfFFA" type="_udMRkKmcEeiDTvaA_QfFFA" association="_xZuUIKmcEeiDTvaA_QfFFA"/>
+    <ownedEnd xmi:id="_xZviQKmcEeiDTvaA_QfFFA" type="_vwfFcKmcEeiDTvaA_QfFFA" association="_xZuUIKmcEeiDTvaA_QfFFA"/>
+  </packagedElement>
+</uml:Model>
